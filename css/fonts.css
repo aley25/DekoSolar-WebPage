@@ -27,6 +27,15 @@
     margin-bottom: 0;
 }
 
+.title2 {
+    font-family: Poppins;
+    font-size: 10vw;
+    font-style: normal;
+    line-height: 28.8px;
+    /* 120% */
+}
+
+
 .title1 {
     font-family: Poppins;
     font-size: 6vw;
@@ -43,6 +52,17 @@
     line-height: 25.2px;
     text-decoration: none;
     /* 140% */
+}
+
+.big-number {
+    color: rgba(167, 176, 203, 0.30);
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin-bottom: 15%;
+    /* 35% */
 }
 
 .text2 {
@@ -67,68 +87,6 @@
     /* 140% */
 }
 
-.header0 {
-    font-family: Poppins;
-    font-size: 5vw;
-    font-style: normal;
-    font-weight: bolder;
-    line-height: 67.2px;
-    text-decoration: none;
-    /* 120% */
-}
-
-
-.header1 {
-    font-family: Poppins;
-    font-size: 3.5vw;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 67.2px;
-    text-decoration: none;
-    /* 120% */
-}
-
-.header2 {
-    font-family: Poppins;
-    font-size: 3.125vw;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 56px;
-    text-decoration: none;
-    /* 140% */
-}
-
-.header3 {
-    font-family: Poppins;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 39.2px;
-    text-decoration: none;
-    /* 140% */
-}
-
-.subtitle {
-    /* Subtitle - 24 px */
-    font-family: Poppins;
-    font-size: 1.5vw;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 33.6px;
-    text-decoration: none;
-    /* 140% */
-}
-
-.subtitle-bold {
-    /* Subtitle - 24 px */
-    font-family: Poppins;
-    font-size: 1.5vw;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 33.6px;
-    text-decoration: none;
-    /* 140% */
-}
 
 
 
@@ -173,7 +131,7 @@
         /* 140% */
     }
 
-    .text-section1{
+    .text-section1 {
         margin-right: 25%;
     }
 

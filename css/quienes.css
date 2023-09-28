@@ -1,0 +1,53 @@
+.section-1-q {
+    height: auto;
+    width: auto;
+    background: #181818;
+}
+
+.section-1-q-content {
+    padding-top: 25px;
+}
+
+.text-section-1 {
+    padding: 7% 10% 5% 10%;
+}
+
+.section-2-q {
+    height: auto;
+    width: auto;
+    background: #fff;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.section-2-q-content {
+    width: 90%;
+    height: 110%;
+    background: #EAECF3;
+    padding-bottom: 20%;
+}
+
+.section-2-ybox {
+    background: #FFC72A;
+    margin: 0% 5% 0% 5%;
+}
+
+.section-2-box {
+    padding: 0% 10% 0% 10%;
+}
+
+.section-3-q-mobile {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.section-3-q-title {
+    padding: 0% 7% 0% 7%;
+}
+
+.section-3-q-carrousel {
+    padding: 0% 7% 0% 7%;
+    position: relative;
+    margin: auto;
+}
+

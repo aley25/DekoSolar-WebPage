@@ -1,0 +1,19 @@
+.white {
+    color: #fff;
+}
+
+.black{
+    color: #000;
+}
+
+.dim-gray {
+    color: #636363;
+}
+
+.yellow-gradient {
+    height: auto;
+    background: linear-gradient(180deg, #FFF 0%, #FFC72A 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

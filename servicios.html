@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DekoSolar</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/servicios.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -54,30 +55,34 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18" fill="none">
                             <path d="M1 1H23M1 9H23M1 17H23" stroke="white" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
-                        </svg> 
+                        </svg>
                     </button>
                 </div>
             </div>
 
             <div id="menu-options" class="menu-options">
-                
                 <div class="menu-option">
-                    <a href="#quienes_somos" class="text1">
+                    <a href="index.html" class="text1">
+                        Inicio
+                    </a>
+                </div>
+                <div class="menu-option">
+                    <a href="quienes.html" class="text1">
                         ¿Quiénes somos?
                     </a>
                 </div>
                 <div class="menu-option">
-                    <a href="#servicios" class="text1">
+                    <a href="servicios.html" class="text1">
                         Servicios
                     </a>
                 </div>
                 <div class="menu-option">
-                    <a href="#contacto" class="text1">
+                    <a href="contacto.html" class="text1">
                         Contacto
                     </a>
                 </div>
                 <div class="menu-option">
-                    <a href="#cotizar" class="text1">
+                    <a href="cotizar.html" class="text1">
                         ¡Cotizar ahora!
                     </a>
                 </div>
@@ -115,7 +120,54 @@
 
     </header>
 
-    
+    <div class="section-1-s-mobile">
+        <div class="section-1-q-title">
+            <h2 class="title1 f-700">Nuestro equipo</h2>
+            <p class="text1 f-500">Nuestro equipo de profesionales comparte una pasión por la energía solar y la
+                sostenibilidad. Fomentamos
+                un entorno de trabajo colaborativo y apoyamos el desarrollo personal y profesional de nuestros
+                colaboradores, al mismo tiempo, valoramos su esfuerzo y compromiso con la organización. Creemos que
+                juntos podemos lograr un impacto significativo.</p>
+        </div>
+
+        <!-- carrousel -->
+        <div class="section-1-s-carrousel">
+            <!-- service1 -->
+            <div class="slide fade">
+                <img src="public/Rectangle 44.png" alt="worker1">
+                <p class="text1 f-500">Además de ser CEO del grupo empresarial europeo Glodeko, Ezequiel Ibáñez también
+                    se encuentra a la
+                    cabeza de Dekosolar. Ezequiel tiene más de 15 años de experiencia en el desarrollo de proyectos
+                    fotovoltaicos en países como España, Francia, Bélgica e Irlanda. Es Ingeniero Civil de la
+                    Universidad de Barcelona además de un Executive MBA de EAE Business School.</p>
+            </div>
+            <!-- service2 -->
+            <div class="slide fade">
+                <img src="public/Rectangle 44.png" alt="worker1">
+                <p class="text1 f-500">Además de ser CEO del grupo empresarial europeo Glodeko, Ezequiel Ibáñez también
+                    se encuentra a la
+                    cabeza de Dekosolar. Ezequiel tiene más de 15 años de experiencia en el desarrollo de proyectos
+                    fotovoltaicos en países como España, Francia, Bélgica e Irlanda. Es Ingeniero Civil de la
+                    Universidad de Barcelona además de un Executive MBA de EAE Business School.</p>
+            </div>
+            <!-- service3 -->
+            <div class="slide fade">
+                <img src="public/Rectangle 44.png" alt="worker1">
+                <p class="text1 f-500">Además de ser CEO del grupo empresarial europeo Glodeko, Ezequiel Ibáñez también
+                    se encuentra a la
+                    cabeza de Dekosolar. Ezequiel tiene más de 15 años de experiencia en el desarrollo de proyectos
+                    fotovoltaicos en países como España, Francia, Bélgica e Irlanda. Es Ingeniero Civil de la
+                    Universidad de Barcelona además de un Executive MBA de EAE Business School.</p>
+            </div>
+            
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
 
 
     <footer class="footer">
@@ -232,7 +284,8 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/slides.js"></script>
 </body>
 
 

@@ -70,9 +70,11 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    text-align: center;
 }
 
 .yellow-square {
     border-radius: 12px;
     background: #FFC72A;
+    text-align: center;
 }

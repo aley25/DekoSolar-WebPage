@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         for (var element in circles) {
             var element2 = circles[element]
             let rect = text.getBoundingClientRect();
-            element2.style.left = (rect.left - 50 - 17.815).toString() + 'px';
+            element2.style.left = (rect.left - 55 - 17.815).toString() + 'px';
         }
 
         // document.getElementById('request_call').addEventListener('submit', (name,) => {
@@ -39,7 +39,7 @@ function viewportHandler(event) {
         for (var element in circles) {
             var element2 = circles[element]
             let rect = text.getBoundingClientRect();
-            element2.style.left = (rect.left - 45 - 17.815).toString() + 'px';
+            element2.style.left = (rect.left - 55 - 17.815).toString() + 'px';
         }
     } catch (error) {
     }

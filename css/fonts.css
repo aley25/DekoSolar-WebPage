@@ -54,6 +54,17 @@
     /* 140% */
 }
 
+.text2 {
+    /* Body 2 - 16 px */
+    font-family: Poppins;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-decoration: none;
+    /* 122.5% */
+}
+
 .big-number {
     color: rgba(167, 176, 203, 0.30);
     font-family: Poppins;
@@ -65,16 +76,7 @@
     /* 35% */
 }
 
-.text2 {
-    /* Body 2 - 16 px */
-    font-family: Poppins;
-    font-size: 1.25vw;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 19.6px;
-    text-decoration: none;
-    /* 122.5% */
-}
+
 
 .text3 {
     /* Body 3 - 14 px */

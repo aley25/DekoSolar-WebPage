@@ -57,7 +57,7 @@
 .text2 {
     /* Body 2 - 16 px */
     font-family: Poppins;
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 500;
     line-height: 19.6px;
@@ -104,11 +104,11 @@
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 650px) {
 
     .title0 {
         font-family: Poppins;
-        font-size: 7vw;
+        font-size: 6vw;
         font-style: normal;
         line-height: 70px;
         /* 120% */
@@ -117,7 +117,7 @@
 
     .title1 {
         font-family: Poppins;
-        font-size: 3vw;
+        font-size: 2vw;
         font-style: normal;
         line-height: 28.8px;
         /* 120% */
@@ -126,12 +126,24 @@
     .text1 {
         /* Body 1 - 18 px */
         font-family: Poppins;
-        font-size: 2.5vw;
+        font-size: 1.5vw;
         font-style: normal;
-        line-height: 45px;
+        line-height: 30px;
         text-decoration: none;
         /* 140% */
     }
+
+    .text2{
+       /* Body 1 - 18 px */
+       font-family: Poppins;
+       font-size: 1.3vw;
+       font-style: normal;
+       line-height: 25px;
+       text-decoration: none;
+       /* 140% */
+    
+    }
+    
 
     .text-section1 {
         margin-right: 25%;

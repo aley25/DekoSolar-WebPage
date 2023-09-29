@@ -402,6 +402,10 @@ footer {
     flex-direction: column;
 }
 
+a:hover{
+    cursor: pointer;
+}
+
 
 @keyframes fade {
     from {

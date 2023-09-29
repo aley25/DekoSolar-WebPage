@@ -35,6 +35,14 @@
     /* 120% */
 }
 
+.title3 {
+    font-family: Poppins;
+    font-size: 5vw;
+    font-style: normal;
+    line-height: 28.8px;
+    /* 120% */
+}
+
 .title-q {
     font-family: Poppins;
     font-size: 7vw;
@@ -177,5 +185,9 @@
             filter: brightness(1) saturate(1);
             transform: scale(1, 1);
         }
+    }
+
+    .big-number{
+        font-size: 8vh;
     }
 }

@@ -10,6 +10,9 @@
     padding: 5% 0% 10% 0%;
     border-radius: 12px;
     background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .call-to-action {
@@ -63,7 +66,7 @@ input[type=text] {
     padding: 5%;
     text-align: center;
     width: 100%;
-    height: 7vh;
+    height: auto;
     border-radius: 12px;
     background: #000;
 }
@@ -83,4 +86,123 @@ input[type=text] {
 
 .mapouter{
     border-radius: 12px;
+}
+
+.section-1-c-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.call-to-action-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 650px) {
+
+    .title0 {
+        font-family: Poppins;
+        font-size: 6vw;
+        font-style: normal;
+        line-height: 70px;
+        /* 120% */
+        margin-bottom: 0;
+    }
+
+    .title1 {
+        font-family: Poppins;
+        font-size: 2vw;
+        font-style: normal;
+        line-height: 28.8px;
+        /* 120% */
+    }
+
+    .text1 {
+        /* Body 1 - 18 px */
+        font-family: Poppins;
+        font-size: 1.5vw;
+        font-style: normal;
+        line-height: 30px;
+        text-decoration: none;
+        /* 140% */
+    }
+
+    .text2{
+       /* Body 1 - 18 px */
+       font-family: Poppins;
+       font-size: 1.3vw;
+       font-style: normal;
+       line-height: 25px;
+       text-decoration: none;
+       /* 140% */
+    
+    }
+    
+
+    .text-section1 {
+        margin-right: 25%;
+    }
+
+
+    .animate-glow {
+        animation-name: animate-glow;
+        animation-timing-function: ease;
+        animation-delay: 0.6s;
+    }
+
+    @keyframes animate-glow {
+        0% {
+            opacity: 0;
+            filter: brightness(3) saturate(3);
+            transform: scale(0.8, 0.8);
+        }
+
+        100% {
+            opacity: 1;
+            filter: brightness(1) saturate(1);
+            transform: scale(1, 1);
+        }
+    }
+
+    .big-number{
+        font-size: 8vh;
+    }
+    .section-1-c-title{
+        flex-direction: row;
+        gap: 10%;
+    }
+
+    .section-1-c-content{
+        width: 60%;
+        flex-direction: column;
+    }
+
+    .call-to-action{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title3{
+        padding: 5% 0% 5% 0%;
+    }
+
+    .section-1-c{
+        background: url(../public/GettyImages-1487294972\ 2.png);
+    }
+
+    .call-to-action-text{
+        /* flex-direction: row; */
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }

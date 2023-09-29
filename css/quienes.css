@@ -23,12 +23,26 @@
     padding: 7% 10% 5% 10%;
 }
 
-.section-2-q {
+
+
+.section-2-q-m{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: auto;
     width: auto;
     background: #fff;
     padding-top: 15%;
     padding-bottom: 15%;
+}
+
+.section-2-q-d {
+    display: none;
+    height: auto;
+    width: auto;
+    background: #fff;
+    padding-top: 15%;
+    padding-bottom: 5%;
 }
 
 .section-2-q-content {
@@ -50,6 +64,11 @@
 .section-3-q-mobile {
     padding-top: 15%;
     padding-bottom: 15%;
+    display: block;
+}
+
+.section-3-q-desktop{
+    display: none;
 }
 
 .section-3-q-title {
@@ -109,4 +128,109 @@
         animation-name: fade;
         animation-duration: 1.5s;
     }
+
+    .section-2-q-m{
+        display: none;
+    }
+
+    .section-2-q-d{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 0% 15% 0% 15%;
+    }
+    
+    .section-2-img-d{
+        width: 20%;
+        height: 100%;
+        background: url(../public/Rectangle\ 42.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .section-2-q-d-fade{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .section-2-q-d-fade-c{
+        margin: 0;
+        padding: 5%;
+        background: #FFC72A;
+        width: 30%;
+    }
+
+    .section-2-q-d-fade-display{
+        display: flex;
+        align-items: center;
+        flex-grow: inherit;
+        justify-content: stretch;
+        height: 100%;
+        margin: 0;
+        padding: 5%;
+        background: #EAECF3;
+        width: 50%;
+    }
+
+    .img-d{
+        height: 100%;
+    }
+
+    .section-2-q-d-fade-content{
+        width: 30%;
+    }
+
+    .section-2-box-d{
+        border-bottom: 2px solid white;
+    }
+    
+    .big-number:active{
+        color: black;
+    }
+
+    .big-number:active{
+        color: white;
+    }
+
+    .big-number:hover{
+        color: black;
+    }
+
+    .section-3-q-mobile{
+        display: none;
+    }
+
+    .section-3-q-desktop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5% 0% 5% 0%
+    }
+
+    .section-3-q-title {
+        padding: 0% 7% 0% 7%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-3-q-d-hover{
+        width: 80%;
+        max-width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .section-3-q-d-hover-c{
+        width: 30%;
+        height: 20%
+    }
+
 }

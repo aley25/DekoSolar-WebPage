@@ -93,8 +93,6 @@
     /* 35% */
 }
 
-
-
 .text3 {
     /* Body 3 - 14 px */
     font-family: Poppins;
@@ -105,9 +103,6 @@
     text-decoration: none;
     /* 140% */
 }
-
-
-
 
 .link {
     /* Link - 14 px */
@@ -160,12 +155,10 @@
        /* 140% */
     
     }
-    
 
     .text-section1 {
         margin-right: 25%;
     }
-
 
     .animate-glow {
         animation-name: animate-glow;

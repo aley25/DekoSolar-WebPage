@@ -137,20 +137,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 80%;
-        margin: 0% 15% 0% 15%;
+        width: 100%;
+        height: 60vh;
+        margin-top: 0;
+        padding-top: 0;
     }
     
     .section-2-img-d{
-        width: 20%;
-        height: 100%;
-        background: url(../public/Rectangle\ 42.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+        height: 60vh;
+        width: 30%;
     }
 
     .section-2-q-d-fade{
         width: 70%;
+        height: 100%;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -159,24 +159,22 @@
     .section-2-q-d-fade-c{
         margin: 0;
         padding: 5%;
+        height: 100%;
         background: #FFC72A;
         width: 30%;
     }
 
     .section-2-q-d-fade-display{
-        display: flex;
-        align-items: center;
-        flex-grow: inherit;
-        justify-content: stretch;
-        height: 100%;
         margin: 0;
         padding: 5%;
+        height: 100%;
         background: #EAECF3;
         width: 50%;
     }
 
     .img-d{
         height: 100%;
+        width: 100%;
     }
 
     .section-2-q-d-fade-content{
@@ -231,6 +229,32 @@
     .section-3-q-d-hover-c{
         width: 30%;
         height: 20%
+    }
+
+    .desactivated{
+        display: none;
+    }
+    
+    .active{
+        background: #EAECF3;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+    }
+    .section-1-q-content{
+        padding-top: 0;
+    }
+
+    .text-section-1{
+        padding: 10%;
+    }
+
+    .title-q{
+        padding-top: 15%;
+        margin-bottom: 0;
     }
 
 }

@@ -3,6 +3,14 @@
 window.onload = function () {
     document.getElementById('menu-button').addEventListener('click', function (event) {
         document.getElementById('menu-options').style.display = 'block';
+        document.getElementById('menu-button-close').style.display = 'block';
+        document.getElementById('menu-button').style.display = 'none';
+    });
+
+    document.getElementById('menu-button-close').addEventListener('click', function (event) {
+        document.getElementById('menu-options').style.display = 'none';
+        document.getElementById('menu-button-close').style.display = 'none';
+        document.getElementById('menu-button').style.display = 'block';
     });
 }
 

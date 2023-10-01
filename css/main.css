@@ -99,6 +99,11 @@ body {
     all: unset;
 }
 
+.menu-button-close {
+    all: unset;
+    display: none;
+}
+
 .option-button {
     all: unset;
 }
@@ -133,7 +138,7 @@ video {
 }
 
 .section-2 {
-    padding: 0 0 35px 0;
+    padding: 0 0 0 0;
     width: auto;
     height: auto;
 }
@@ -147,7 +152,7 @@ video {
 }
 
 .section-2-content {
-    padding: 54px 24px 54px 24px;
+    padding: 54px 24px 45px 24px;
     gap: 3vh;
 }
 

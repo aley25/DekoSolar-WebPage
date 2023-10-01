@@ -12,6 +12,58 @@ window.onload = function () {
         document.getElementById('menu-button-close').style.display = 'none';
         document.getElementById('menu-button').style.display = 'block';
     });
+
+    document.getElementById('number1').addEventListener('click', function (event) {
+        document.getElementById('number1').classList.remove('big-number');
+        document.getElementById('number1').classList.add('big-number-selected');
+        document.getElementById('number2').classList.add('big-number');
+        document.getElementById('number2').classList.remove('big-number-selected');
+        document.getElementById('number3').classList.add('big-number');
+        document.getElementById('number3').classList.remove('big-number-selected');
+        // change of text
+        document.getElementById('obj-1').style.display = 'block';
+        document.getElementById('obj-2').style.display = 'none';
+        document.getElementById('obj-3').style.display = 'none';
+        // change of img
+        document.getElementById('img-1').style.display = 'block';
+        document.getElementById('img-2').style.display = 'none';
+        document.getElementById('img-3').style.display = 'none';
+    });
+
+    document.getElementById('number2').addEventListener('click', function (event) {
+        document.getElementById('number2').classList.remove('big-number');
+        document.getElementById('number2').classList.add('big-number-selected');
+        document.getElementById('number1').classList.add('big-number');
+        document.getElementById('number1').classList.remove('big-number-selected');
+        document.getElementById('number3').classList.add('big-number');
+        document.getElementById('number3').classList.remove('big-number-selected');
+        // change of text
+        document.getElementById('obj-2').style.display = 'block';
+        document.getElementById('obj-1').style.display = 'none';
+        document.getElementById('obj-3').style.display = 'none';
+        // change of img
+        document.getElementById('img-2').style.display = 'block';
+        document.getElementById('img-1').style.display = 'none';
+        document.getElementById('img-3').style.display = 'none';
+    });
+
+    document.getElementById('number3').addEventListener('click', function (event) {
+        document.getElementById('number3').classList.remove('big-number');
+        document.getElementById('number3').classList.add('big-number-selected');
+        document.getElementById('number1').classList.add('big-number');
+        document.getElementById('number1').classList.remove('big-number-selected');
+        document.getElementById('number2').classList.add('big-number');
+        document.getElementById('number2').classList.remove('big-number-selected');
+        // change of text
+        document.getElementById('obj-3').style.display = 'block';
+        document.getElementById('obj-1').style.display = 'none';
+        document.getElementById('obj-2').style.display = 'none';
+        // change of img
+        document.getElementById('img-3').style.display = 'block';
+        document.getElementById('img-1').style.display = 'none';
+        document.getElementById('img-2').style.display = 'none';
+    });
+    
 }
 
 

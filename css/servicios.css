@@ -87,8 +87,7 @@
 }
 
 @media only screen and (min-width: 650px) {
-
-    .slide .fade .service {
+    .service {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
@@ -98,5 +97,15 @@
     .section-1-s-mobile {
         display: flex;
         flex-direction: column;
+        padding: 10% 5% 10% 5%;
+    }
+
+    .img-service{
+        width: 50%;
+    }
+
+    .text-service{
+        width: 60%;
+        padding-right: 5%;
     }
 }

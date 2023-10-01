@@ -93,6 +93,17 @@
     /* 35% */
 }
 
+.big-number-selected {
+    color: black;
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin-bottom: 15%;
+    /* 35% */
+}
+
 .text3 {
     /* Body 3 - 14 px */
     font-family: Poppins;
@@ -113,6 +124,20 @@
     line-height: 19.6px;
     /* 140% */
     text-decoration-line: underline;
+}
+
+@keyframes animate-glow {
+    0% {
+        opacity: 0;
+        filter: brightness(3) saturate(3);
+        transform: scale(0.8, 0.8);
+    }
+
+    100% {
+        opacity: 1;
+        filter: brightness(1) saturate(1);
+        transform: scale(1, 1);
+    }
 }
 
 
@@ -166,21 +191,13 @@
         animation-delay: 0.6s;
     }
 
-    @keyframes animate-glow {
-        0% {
-            opacity: 0;
-            filter: brightness(3) saturate(3);
-            transform: scale(0.8, 0.8);
-        }
-
-        100% {
-            opacity: 1;
-            filter: brightness(1) saturate(1);
-            transform: scale(1, 1);
-        }
-    }
+    
 
     .big-number{
+        font-size: 8vh;
+    }
+
+    .big-number-selected{
         font-size: 8vh;
     }
 }

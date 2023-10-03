@@ -6,10 +6,14 @@
 }
 
 .section-1-q-content {
-    padding-top: 25px;
+    padding: 5%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.section-1-fade-2{
+.section-1-fade-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,12 +21,12 @@
 }
 
 .text-section-1 {
-    padding: 7% 10% 5% 10%;
+    padding: 7% 7% 5% 7%;
 }
 
 
 
-.section-2-q-m{
+.section-2-q-m {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +70,7 @@
     display: block;
 }
 
-.section-3-q-desktop{
+.section-3-q-desktop {
     display: none;
 }
 
@@ -80,32 +84,63 @@
     margin: auto;
 }
 
-.img-quienes{
+.img-quienes {
     display: none;
 }
 
 
+.slide {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fade {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.img-1{
+    width: 100%;
+}
+
+
 @media only screen and (min-width: 650px) {
-    .img-1{
-        display: none;
-    }
-    .img-2{
+    .img-1 {
         display: none;
     }
 
-    .section-1-fade{
+    .img-2 {
+        display: none;
+    }
+
+    .info-img {
+        visibility: hidden;
+        position: absolute;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .section-1-fade {
         display: flex;
         width: 100%;
     }
 
-    .img-quienes{
+    .img-quienes {
         display: block;
     }
 
     .slide {
         display: none;
     }
-    
+
     .dot {
         cursor: pointer;
         height: 15px;
@@ -116,25 +151,25 @@
         display: inline-block;
         transition: background-color 0.6s ease;
     }
-    
+
     .active,
     .dot:hover {
         background-color: #717171;
     }
 
-    
-    
+
+
     /* Fading animation */
     .fade {
         animation-name: fade;
         animation-duration: 1.5s;
     }
 
-    .section-2-q-m{
+    .section-2-q-m {
         display: none;
     }
 
-    .section-2-q-d{
+    .section-2-q-d {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -143,24 +178,24 @@
         margin-top: 0;
         padding-top: 0;
     }
-    
-    .section-2-img-d{
+
+    .section-2-img-d {
         height: 100%;
         width: 30%;
         object-fit: contain;
     }
 
-    .section-2-q-d-fade{
+    .section-2-q-d-fade {
         width: 70%;
         height: 100%;
         display: flex;
         flex-direction: row;
         flex-grow: initial;
         align-items: flex-start;
-        
+
     }
 
-    .section-2-q-d-fade-c{
+    .section-2-q-d-fade-c {
         margin: 0;
         padding: 5%;
         height: 100%;
@@ -168,7 +203,7 @@
         width: 30%;
     }
 
-    .section-2-q-d-fade-display{
+    .section-2-q-d-fade-display {
         margin: 0;
         padding: 5%;
         height: 100%;
@@ -176,36 +211,36 @@
         width: 50%;
     }
 
-    .img-d{
+    .img-d {
         height: 100%;
         width: 100%;
     }
 
-    .section-2-q-d-fade-content{
+    .section-2-q-d-fade-content {
         width: 30%;
     }
 
-    .section-2-box-d{
+    .section-2-box-d {
         border-bottom: 2px solid white;
     }
 
-    .big-number-selected{
+    .big-number-selected {
         color: black;
     }
 
-    .big-number:hover{
+    .big-number:hover {
         color: black;
     }
 
-    .selected{
+    .selected {
         color: black;
     }
 
-    .section-3-q-mobile{
+    .section-3-q-mobile {
         display: none;
     }
 
-    .section-3-q-desktop{
+    .section-3-q-desktop {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -214,32 +249,90 @@
     }
 
     .section-3-q-title {
-        padding: 0% 7% 0% 7%;
+        padding: 0% 7% 5% 7%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
 
-    .section-3-q-d-hover{
-        width: 80%;
-        max-width: 80%;
+    .section-3-q-d-hover {
+        width: 90%;
+        height: 60vh;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
+        gap: 1%;
+        margin-bottom: 1%;
     }
 
-    .section-3-q-d-hover-c{
+    .box-img-q{
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-q {
+        width: 100%;
+        height: 100%;
+        border-radius: 5%;
+    }
+
+    .section-3-q-d-hover-c {
+        display: flex;
+        position: relative;
+        /* justify-content: flex-start; */
         width: 30%;
-        height: 20%
+        height: 100%;
+        border-radius: 20%;
     }
 
-    .desactivated{
+    .section-3-q-d-hover-c:hover {
+        width: 80%;
+        height: 100%;
+    }
+
+    .section-3-q-d-hover-c:hover+.section-3-q-d-hover-c {
+        width: 10%;
+    }
+
+    .section-3-q-d-hover-c:hover>.info-img {
+        visibility: visible;
+
+    }
+
+    .worker1:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Ezequiel Iba╠ün╠âez_DT- Expanded.png');
+    }
+
+    .worker2:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Laura\ Orozco_DT-Expanded.png');
+    }
+
+    .worker3:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Yamile\ El\ Sabbagh\ Mountran_DT-Expanded.png');
+    }
+    .worker4:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Valentina\ Ca╠üseres_DT-Expanded.png');
+    }
+    .worker5:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Miguel\ Canchano_DT-Expanded.png');
+    }
+    .worker6:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Jorge\ Torres_DT_Expanded.png');
+    }
+    .worker7:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Jennifer\ Crespo_DT-Expanded.png');
+    }
+    .worker8:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Harrison\ Palomino_DT-Expanded.png');
+    }
+    .worker9:hover > .box-img-q > img {
+        content: url('../public/miembros/Desktop/Xiomara\ Mesa_DT-Expanded.png');
+    }
+
+    .desactivated {
         display: none;
     }
-    
-    .active{
+
+    .active {
         background: #EAECF3;
         margin: 0;
         padding: 0;
@@ -248,7 +341,8 @@
         justify-content: center;
         justify-self: center;
     }
-    .section-1-q-content{
+
+    .section-1-q-content {
         padding-top: 0;
         display: flex;
         flex-direction: column;
@@ -256,29 +350,31 @@
         justify-content: center;
     }
 
-    .text-section-1{
+    .text-section-1 {
         padding: 10%;
     }
 
-    .title-q{
+    .title-q {
         padding-top: 0%;
         margin-bottom: 0;
     }
 
-    .box-fade1{
+    .box-fade1 {
         width: 80%;
         height: 50%;
     }
 
-    #obj-2, #obj-3{
+    #obj-2,
+    #obj-3 {
         display: none;
     }
 
-    #img-2, #img-3{
+    #img-2,
+    #img-3 {
         display: none;
     }
 
-    #vision{
+    #vision {
         display: none;
     }
 

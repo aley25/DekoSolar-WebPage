@@ -82,6 +82,16 @@
     /* 122.5% */
 }
 
+.text3 {
+    /* Body 1 - 18 px */
+    font-family: Poppins;
+    font-size: 2vw;
+    font-style: normal;
+    line-height: 25.2px;
+    text-decoration: none;
+    /* 140% */
+}
+
 .big-number {
     color: rgba(167, 176, 203, 0.30);
     font-family: Poppins;
@@ -109,7 +119,6 @@
     font-family: Poppins;
     font-size: 1.09375vw;
     font-style: normal;
-    font-weight: 500;
     line-height: 19.6px;
     text-decoration: none;
     /* 140% */
@@ -124,6 +133,21 @@
     line-height: 19.6px;
     /* 140% */
     text-decoration-line: underline;
+}
+
+.big-service-number {
+    /* margin-top: 50%; */
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    width: 224px;
+    height: 286px;
+    flex-shrink: 0;
+    color: #BEBEBE;
+    /* 5.28% */
 }
 
 @keyframes animate-glow {
@@ -147,7 +171,7 @@
         font-family: Poppins;
         font-size: 6vw;
         font-style: normal;
-        line-height: 70px;
+        line-height: 100px;
         /* 120% */
         margin-bottom: 0;
     }
@@ -165,21 +189,23 @@
         font-family: Poppins;
         font-size: 1.5vw;
         font-style: normal;
-        line-height: 30px;
+        line-height: 45px;
         text-decoration: none;
         /* 140% */
     }
 
-    .text2{
-       /* Body 1 - 18 px */
-       font-family: Poppins;
-       font-size: 1.3vw;
-       font-style: normal;
-       line-height: 25px;
-       text-decoration: none;
-       /* 140% */
-    
+    .text2 {
+        /* Body 1 - 18 px */
+        font-family: Poppins;
+        font-size: 1.3vw;
+        font-style: normal;
+        line-height: 25px;
+        text-decoration: none;
+        /* 140% */
+
     }
+
+    
 
     .text-section1 {
         margin-right: 25%;
@@ -191,13 +217,17 @@
         animation-delay: 0.6s;
     }
 
-    
 
-    .big-number{
+
+    .big-number {
         font-size: 8vh;
     }
 
-    .big-number-selected{
+    .big-number-selected {
         font-size: 8vh;
+    }
+
+    .title3 {
+        font-size: 4vw;
     }
 }

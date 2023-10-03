@@ -2,7 +2,7 @@
     background: url(../public/GettyImages-1487294972\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 7%;
+    padding: 15% 7% 7% 7%;
 }
 
 .section-1-c-content {
@@ -81,16 +81,16 @@ input[type=text] {
     background: #FFC72A;
 }
 
-.yellow-location{
+.yellow-location {
     border-radius: 12px;
     padding: 5%;
 }
 
-.mapouter{
+.mapouter {
     border-radius: 12px;
 }
 
-.section-1-c-title{
+.section-1-c-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,14 +98,14 @@ input[type=text] {
     margin-bottom: 5%;
 }
 
-.call-to-action-text{
+.call-to-action-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.swal2-container{
+.swal2-container {
     font-family: Poppins;
 }
 
@@ -138,17 +138,17 @@ input[type=text] {
         /* 140% */
     }
 
-    .text2{
-       /* Body 1 - 18 px */
-       font-family: Poppins;
-       font-size: 1.3vw;
-       font-style: normal;
-       line-height: 25px;
-       text-decoration: none;
-       /* 140% */
-    
+    .text2 {
+        /* Body 1 - 18 px */
+        font-family: Poppins;
+        font-size: 1.3vw;
+        font-style: normal;
+        line-height: 25px;
+        text-decoration: none;
+        /* 140% */
+
     }
-    
+
 
     .text-section1 {
         margin-right: 25%;
@@ -160,22 +160,23 @@ input[type=text] {
         animation-timing-function: ease;
         animation-delay: 0.6s;
     }
-    
 
-    .big-number{
+
+    .big-number {
         font-size: 8vh;
     }
-    .section-1-c-title{
+
+    .section-1-c-title {
         flex-direction: row;
         gap: 10%;
     }
 
-    .section-1-c-content{
+    .section-1-c-content {
         width: 60%;
         flex-direction: column;
     }
 
-    .call-to-action{
+    .call-to-action {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -183,16 +184,18 @@ input[type=text] {
         cursor: pointer;
     }
 
-    .title3{
+    .title3 {
         padding: 5% 0% 5% 0%;
     }
 
-    .section-1-c{
+    .section-1-c {
         padding-top: 20%;
-        background: url(../public/GettyImages-1487294972\ 2.png);
+        background: url(../public/GettyImages-1487294972\ 1.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
-    .call-to-action-text{
+    .call-to-action-text {
         /* flex-direction: row; */
         width: 100%;
         display: flex;

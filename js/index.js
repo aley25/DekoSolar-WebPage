@@ -12,57 +12,6 @@ window.onload = function () {
         document.getElementById('menu-button-close').style.display = 'none';
         document.getElementById('menu-button').style.display = 'block';
     });
-
-    document.getElementById('number1').addEventListener('click', function (event) {
-        document.getElementById('number1').classList.remove('big-number');
-        document.getElementById('number1').classList.add('big-number-selected');
-        document.getElementById('number2').classList.add('big-number');
-        document.getElementById('number2').classList.remove('big-number-selected');
-        document.getElementById('number3').classList.add('big-number');
-        document.getElementById('number3').classList.remove('big-number-selected');
-        // change of text
-        document.getElementById('obj-1').style.display = 'block';
-        document.getElementById('obj-2').style.display = 'none';
-        document.getElementById('obj-3').style.display = 'none';
-        // change of img
-        document.getElementById('img-1').style.display = 'block';
-        document.getElementById('img-2').style.display = 'none';
-        document.getElementById('img-3').style.display = 'none';
-    });
-
-    document.getElementById('number2').addEventListener('click', function (event) {
-        document.getElementById('number2').classList.remove('big-number');
-        document.getElementById('number2').classList.add('big-number-selected');
-        document.getElementById('number1').classList.add('big-number');
-        document.getElementById('number1').classList.remove('big-number-selected');
-        document.getElementById('number3').classList.add('big-number');
-        document.getElementById('number3').classList.remove('big-number-selected');
-        // change of text
-        document.getElementById('obj-2').style.display = 'block';
-        document.getElementById('obj-1').style.display = 'none';
-        document.getElementById('obj-3').style.display = 'none';
-        // change of img
-        document.getElementById('img-2').style.display = 'block';
-        document.getElementById('img-1').style.display = 'none';
-        document.getElementById('img-3').style.display = 'none';
-    });
-
-    document.getElementById('number3').addEventListener('click', function (event) {
-        document.getElementById('number3').classList.remove('big-number');
-        document.getElementById('number3').classList.add('big-number-selected');
-        document.getElementById('number1').classList.add('big-number');
-        document.getElementById('number1').classList.remove('big-number-selected');
-        document.getElementById('number2').classList.add('big-number');
-        document.getElementById('number2').classList.remove('big-number-selected');
-        // change of text
-        document.getElementById('obj-3').style.display = 'block';
-        document.getElementById('obj-1').style.display = 'none';
-        document.getElementById('obj-2').style.display = 'none';
-        // change of img
-        document.getElementById('img-3').style.display = 'block';
-        document.getElementById('img-1').style.display = 'none';
-        document.getElementById('img-2').style.display = 'none';
-    });
     
 }
 
@@ -86,6 +35,76 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (error) {
         console.log(error);
     }
+
+    try{
+        var circles = document.getElementsByClassName('number-black-box');
+        console.log("dww");
+        var box = document.getElementById('section-2-d-content');
+
+        for (var element in circles) {
+            var element2 = circles[element]
+            let rect = box.getBoundingClientRect();
+            console.log(rect.top);
+            element2.style.top = (rect.top+ window.scrollY - 20).toString() + 'px';
+        }
+    }catch (error) {
+        console.log(error);
+    }
+
+
+    document.getElementById('question-button-1').addEventListener('click', function (event) {
+        var content = document.getElementById('question-content-1');
+        if(content.computedStyleMap().get('display') == 'none'){
+            content.style.display = 'block';
+        }else if (content.computedStyleMap().get('display') == 'block'){
+            content.style.display = 'none';
+        }
+    });
+
+    document.getElementById('question-button-2').addEventListener('click', function (event) {
+        var content = document.getElementById('question-content-2');
+        if(content.computedStyleMap().get('display') == 'none'){
+            content.style.display = 'block';
+        }else if (content.computedStyleMap().get('display') == 'block'){
+            content.style.display = 'none';
+        }
+    });
+
+    document.getElementById('question-button-3').addEventListener('click', function (event) {
+        var content = document.getElementById('question-content-3');
+        if(content.computedStyleMap().get('display') == 'none'){
+            content.style.display = 'block';
+        }else if (content.computedStyleMap().get('display') == 'block'){
+            content.style.display = 'none';
+        }
+    });
+
+    document.getElementById('question-button-4').addEventListener('click', function (event) {
+        var content = document.getElementById('question-content-4');
+        if(content.computedStyleMap().get('display') == 'none'){
+            content.style.display = 'block';
+        }else if (content.computedStyleMap().get('display') == 'block'){
+            content.style.display = 'none';
+        }
+    });
+
+    document.getElementById('question-button-5').addEventListener('click', function (event) {
+        var content = document.getElementById('question-content-5');
+        if(content.computedStyleMap().get('display') == 'none'){
+            content.style.display = 'block';
+        }else if (content.computedStyleMap().get('display') == 'block'){
+            content.style.display = 'none';
+        }
+    });
+
+    document.getElementById('question-button-6').addEventListener('click', function (event) {
+        var content = document.getElementById('question-content-6');
+        if(content.computedStyleMap().get('display') == 'none'){
+            content.style.display = 'block';
+        }else if (content.computedStyleMap().get('display') == 'block'){
+            content.style.display = 'none';
+        }
+    });
 
 });
 

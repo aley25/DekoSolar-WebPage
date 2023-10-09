@@ -2,12 +2,12 @@
     background: url(../public/GettyImages-1487294972\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15% 7% 7% 7%;
+    padding: 15% 7% 0% 7%;
 }
 
 .section-1-c-content {
     width: 100%;
-    padding: 5% 0% 10% 0%;
+    padding: 2% 0% 10% 0%;
     border-radius: 12px;
     background: #FFF;
     display: flex;
@@ -17,11 +17,10 @@
 }
 
 .call-to-action {
-    margin: 5%;
     padding: 5%;
     border-radius: 12px;
     background: #7B5800;
-    width: 80%;
+    width: 70%;
 }
 
 .call-to-action-2 {
@@ -76,7 +75,6 @@ input[type=text] {
 .map {
     width: 90%;
     margin: 5% 0% 5% 0%;
-    padding: 5% 5% 10% 5%;
     border-radius: 12px;
     background: #FFC72A;
 }
@@ -189,7 +187,7 @@ input[type=text] {
     }
 
     .section-1-c {
-        padding-top: 20%;
+        padding-top: 10%;
         background: url(../public/GettyImages-1487294972\ 1.svg);
         background-size: cover;
         background-repeat: no-repeat;

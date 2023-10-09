@@ -76,11 +76,13 @@ body {
     height: auto;
     display: flex;
     align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .menu-content {
     width: 100%;
-    margin: 2%;
+    margin: 0% 5% 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,6 +95,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .menu-button {
@@ -111,6 +114,7 @@ body {
 .menu-options {
     display: none;
     margin-top: 2vh;
+    margin-right: 1vh;
 }
 
 .menu-option {
@@ -120,8 +124,12 @@ body {
 }
 
 .section-1 {
-    padding: 62px 25px 50px 25px;
+    padding: 20% 5% 5% 5%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: url(../public/Home\ Background.jpg), lightgray;
     background-size: cover;
     background-repeat: no-repeat;
@@ -157,7 +165,7 @@ video {
 }
 
 .section-2-content {
-    padding: 54px 24px 45px 24px;
+    padding: 1%;
     gap: 3vh;
 }
 
@@ -174,7 +182,7 @@ video {
 }
 
 .section-3 {
-    padding: 15vh 0vh 6vh 0vh;
+    padding: 5vh 0vh 6vh 0vh;
     background: radial-gradient(50% 50% at 50% 50%, #313131 0%, #181818 78.65%, #181818 100%);
     width: auto;
     height: auto;
@@ -227,8 +235,8 @@ video {
 
 .section-3-img-2 {
     display: flex;
-    width: 30%;
     gap: 5%;
+    width: 30%;
     justify-content: flex-start;
     align-items: baseline;
     flex-wrap: wrap;
@@ -255,11 +263,6 @@ video {
     height: 24px;
     background: #FFC72A;
 }
-
-.c-yellow:hover {
-    cursor: pointer;
-}
-
 
 .r-yellow {
     width: 32px;
@@ -291,6 +294,21 @@ video {
     width: auto;
     height: auto;
 }
+.section-3-q-carrousel {
+    height: 40vh;
+    width: 90%;
+    padding: 2%;
+    position: relative;
+    margin: auto;
+}
+
+.img-fade {
+    border-radius: 100px;
+    height: 35vh;
+    width: 100%;
+    border-radius: 5%;
+    object-fit: contain;
+}
 
 .boxes-3 {
     text-align: left;
@@ -298,7 +316,7 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    margin-top: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
     gap: 32px;
@@ -337,7 +355,6 @@ video {
 .button-box-3-text2 {
     display: none;
 }
-
 
 .image-panel {
     display: inline-flex;
@@ -380,8 +397,8 @@ video {
 }
 
 .black-icon {
-    height: 18px;
-    width: 18px;
+    height: 36px;
+    width: 36px;
     display: flex;
     padding: 19px;
     justify-content: center;
@@ -391,8 +408,18 @@ video {
     background: #2C2C2C;
 }
 
+.black-icon > svg:hover > path{
+    fill: #FFC72A;
+}
+
+.black-icon > svg:hover > g > path{
+    stroke: #FFC72A;
+}
+
 .boxes-5-content {
     padding: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-6 {
@@ -468,13 +495,14 @@ footer {
 }
 
 .title-gradient {
+    margin-top: 0;
     background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.title-gradient:hover {
+.title-gradient:hover > .title0 {
     background: linear-gradient(180deg, #FFF 0%, #FFC72A 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -509,6 +537,7 @@ a:hover {
 
 .question-content {
     display: none;
+    text-align: start;
 }
 
 #sun:hover {
@@ -516,6 +545,16 @@ a:hover {
 }
 
 .btn-quiero {
+    display: none;
+    margin-top: 0;
+    margin-left: 2%;
+}
+
+#num-info-1{
+    display: block;
+}
+
+#num-info-2, #num-info-3{
     display: none;
 }
 
@@ -586,13 +625,24 @@ a:hover {
     }
 
     .section-1 {
-        padding-top: 10%;
-        padding-bottom: 25vh;
+        background-image: none;
+        background-color: #F8A62B;
+        height: 80vh;
+        padding-top: 5%;
     }
+
+    .section-1:hover {
+        background-color: #FEB03A;
+        height: 80vh;
+        padding-top: 5%;
+    }
+
 
     .section-2 {
         display: flex;
         justify-content: right;
+        align-items: center;
+        height: 100vh;
     }
 
     .section-2-content {
@@ -600,10 +650,11 @@ a:hover {
     }
 
     .section-4 {
-        padding: 7% 7% 7% 7%;
+        padding: 3% 7% 7% 7%;
     }
 
     .boxes-3 {
+        padding-top: 0;
         flex-direction: row;
     }
 
@@ -613,7 +664,9 @@ a:hover {
 
     .box-3-content {
         width: 30%;
-        height: 85vh;
+        height: 70vh;
+        justify-content: space-evenly;
+        align-items: flex-start;
     }
 
     .button-box-3 {
@@ -632,8 +685,12 @@ a:hover {
     }
 
     .image-panel {
-        height: 40vh;
+        height: 15vh;
         background-position: 90% 70%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
     }
 
     .c-yellow {
@@ -647,16 +704,19 @@ a:hover {
         border: 2px solid rgba(255, 255, 255, 0.60);
         background: linear-gradient(119deg, rgba(234, 236, 243, 0.60) 0%, rgba(234, 236, 243, 0.10) 100%);
         backdrop-filter: blur(40px);
-        margin-bottom: 10%;
-
+        margin-bottom: 5%;
+        padding: 3%;
+        height: auto;
     }
 
     .group-boxes-5 {
         width: 50%;
         padding: 0% 5% 0% 5%;
+        
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 5%;
     }
     .group-boxes-5-2{
         width: 50%;
@@ -669,6 +729,8 @@ a:hover {
     .boxes-5-content {
         width: 100%;
         height: auto;
+        gap: 15px;
+        flex-direction: row;
     }
 
     .section-6 {
@@ -680,6 +742,7 @@ a:hover {
 
     .p-title {
         padding-left: 0;
+        padding-bottom: 1%;
     }
 
     .question-box {
@@ -701,13 +764,13 @@ a:hover {
         display: flex;
         flex-direction: column;
         width: 90%;
-
     }
 
     .footer-section-1-contact {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-bottom: 2%;
     }
 
     .footer-section-direction {
@@ -727,18 +790,21 @@ a:hover {
 
     .dekosolar-text {
         text-align: center;
-        padding-top: 5%;
+        padding-top: 1%;
     }
 
 
 
     .footer-info {
-        padding-top: 5%;
+        padding-top: 2%;
+        width: 100%;
     }
 
     .menu-options {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
         margin-top: 2vh;
     }
 
@@ -771,7 +837,7 @@ a:hover {
     }
 
     .section-3 {
-        padding-bottom: 15%;
+        padding-bottom: 5%;
     }
 
     .section-3-content {
@@ -791,7 +857,7 @@ a:hover {
     }
 
     .btn-quiero {
-        margin-top: 5%;
+        margin-top: 2%;
         display: block;
         border-radius: 200px;
         background: #FFC72A;
@@ -800,6 +866,26 @@ a:hover {
         justify-content: center;
         align-items: center;
         gap: 10px;
+    }
+
+    .section-2-block{
+        height: 15vh;
+    }
+
+    .section-3-q-carrousel {
+        height: 70vh;
+        width: 90%;
+        padding: 2%;
+        position: relative;
+        margin: auto;
+    }
+    
+    .img-fade {
+        border-radius: 100px;
+        height: 70vh;
+        width: 100%;
+        border-radius: 5%;
+        object-fit: contain;
     }
 
 }

@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     try{
         var circles = document.getElementsByClassName('number-black-box');
-        console.log("dww");
         var box = document.getElementById('section-2-d-content');
 
         for (var element in circles) {
@@ -106,6 +105,23 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+
+    
+        setInterval(() => {
+            if (document.getElementById('num-info-1').computedStyleMap().get('display') == 'block') {
+                document.getElementById('num-info-1').style.display = 'none';
+                document.getElementById('num-info-2').style.display = 'block';
+            } else if (document.getElementById('num-info-2').computedStyleMap().get('display') == 'block') {
+                document.getElementById('num-info-2').style.display = 'none';
+                document.getElementById('num-info-3').style.display = 'block';
+            } else if (document.getElementById('num-info-3').computedStyleMap().get('display') == 'block') {
+                document.getElementById('num-info-3').style.display = 'none';
+                document.getElementById('num-info-1').style.display = 'block';
+            }
+    
+        }, 5000); // 👈️ time in milliseconds
+    
+
 });
 
 window.visualViewport.addEventListener("resize", viewportHandler);
@@ -122,6 +138,7 @@ function viewportHandler(event) {
         }
     } catch (error) {
     }
+
 }
 
 function clickAccordion(element) {

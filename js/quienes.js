@@ -74,7 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     setInterval(() => {
-        console.log("second");
         if (document.getElementById('number1').classList.contains('big-number-selected')) {
 
             document.getElementById('number1').classList.add('big-number');
@@ -125,5 +124,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         }
 
-    }, 7000); // 👈️ time in milliseconds
+    }, 30000); // 👈️ time in milliseconds
 });

@@ -180,9 +180,8 @@
     }
 
     .section-2-img-d {
-        height: 100%;
+        height: 100% ;
         width: 30%;
-        object-fit: contain;
     }
 
     .section-2-q-d-fade {
@@ -212,8 +211,9 @@
     }
 
     .img-d {
-        height: 100%;
-        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
     }
 
     .section-2-q-d-fade-content {
@@ -260,6 +260,8 @@
         width: 90%;
         height: 60vh;
         display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 1%;
         margin-bottom: 1%;
     }
@@ -285,12 +287,16 @@
     }
 
     .section-3-q-d-hover-c:hover {
-        width: 80%;
+        width: 70%;
         height: 100%;
     }
 
     .section-3-q-d-hover-c:hover+.section-3-q-d-hover-c {
-        width: 10%;
+        width: 20%;
+    }
+
+    .section-3-q-d-hover-c:hover+.section-3-q-d-hover-c+.section-3-q-d-hover-c {
+        width: 20%;
     }
 
     .section-3-q-d-hover-c:hover>.info-img {
@@ -300,32 +306,41 @@
 
     .worker1:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Ezequiel Iba╠ün╠âez_DT- Expanded.png');
+        opacity: 0.3;
     }
 
     .worker2:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Laura\ Orozco_DT-Expanded.png');
+        opacity: 0.3;
     }
 
     .worker3:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Yamile\ El\ Sabbagh\ Mountran_DT-Expanded.png');
+        opacity: 0.3;
     }
     .worker4:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Valentina\ Ca╠üseres_DT-Expanded.png');
+        opacity: 0.3;
     }
     .worker5:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Miguel\ Canchano_DT-Expanded.png');
+        opacity: 0.3;
     }
     .worker6:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Jorge\ Torres_DT_Expanded.png');
+        opacity: 0.3;
     }
     .worker7:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Jennifer\ Crespo_DT-Expanded.png');
+        opacity: 0.3;
     }
     .worker8:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Harrison\ Palomino_DT-Expanded.png');
+        opacity: 0.3;
     }
     .worker9:hover > .box-img-q > img {
         content: url('../public/miembros/Desktop/Xiomara\ Mesa_DT-Expanded.png');
+        opacity: 0.3;
     }
 
     .desactivated {
@@ -351,7 +366,11 @@
     }
 
     .text-section-1 {
-        padding: 10%;
+        padding: 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
     }
 
     .title-q {

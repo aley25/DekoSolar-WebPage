@@ -68,10 +68,12 @@
     font-style: normal;
     line-height: 25.2px;
     text-decoration: none;
+    margin:3px;
     /* 140% */
 }
 
 .text2 {
+    margin: 0;
     /* Body 2 - 16 px */
     font-family: Poppins;
     font-size: 4vw;
@@ -136,16 +138,15 @@
 }
 
 .big-service-number {
-    /* margin-top: 50%; */
+    margin-top: 0;
     margin-bottom: 0;
     font-family: Poppins;
-    font-size: 200px;
+    font-size: 150px;
     font-style: normal;
     font-weight: 700;
     line-height: 26.4px;
-    width: 224px;
-    height: 286px;
     flex-shrink: 0;
+    justify-self: center;
     color: #BEBEBE;
     /* 5.28% */
 }
@@ -168,28 +169,39 @@
 @media only screen and (min-width: 650px) {
 
     .title0 {
+        margin-top: 1%;
         font-family: Poppins;
-        font-size: 6vw;
+        font-size: 4vw;
         font-style: normal;
-        line-height: 100px;
+        line-height: 70px;
         /* 120% */
         margin-bottom: 0;
     }
 
     .title1 {
         font-family: Poppins;
-        font-size: 2vw;
+        font-size: 1.5vw;
         font-style: normal;
         line-height: 28.8px;
         /* 120% */
+        margin: 0;
+    }
+
+    .title1 {
+        font-family: Poppins;
+        font-size: 1.5vw;
+        font-style: normal;
+        line-height: 28.8px;
+        /* 120% */
+        margin: 0;
     }
 
     .text1 {
         /* Body 1 - 18 px */
         font-family: Poppins;
-        font-size: 1.5vw;
+        font-size: 18px;
         font-style: normal;
-        line-height: 45px;
+        line-height: 25px;
         text-decoration: none;
         /* 140% */
     }
@@ -197,7 +209,7 @@
     .text2 {
         /* Body 1 - 18 px */
         font-family: Poppins;
-        font-size: 1.3vw;
+        font-size: 1.1vw;
         font-style: normal;
         line-height: 25px;
         text-decoration: none;
@@ -205,9 +217,21 @@
 
     }
 
+    .text3 {
+        /* Body 1 - 18 px */
+        font-family: Poppins;
+        font-size: 1.0vw;
+        font-style: normal;
+        line-height: 25px;
+        text-decoration: none;
+        /* 140% */
+    }
+
     
 
     .text-section1 {
+        margin-top: 3%;
+        line-height: 30px;
         margin-right: 25%;
     }
 
@@ -228,6 +252,6 @@
     }
 
     .title3 {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 }

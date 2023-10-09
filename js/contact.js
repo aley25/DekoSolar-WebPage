@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 .then(function () {
                     Swal.fire({
                         icon: 'success',
-                        title: 'Información almacenada correctamente.',
+                        title: 'Hemos recibido tus datos.',
                         text: 'Nos pondremos en contacto con usted.',
                     });
                     document.getElementById('name').value = '';
